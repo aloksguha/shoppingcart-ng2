@@ -1,0 +1,29 @@
+<div class="album text-muted">
+  <div class="container">
+    <app-cart-observer></app-cart-observer>
+    <div class="row">
+      <ng-template ngFor let-product [ngForOf]="products">
+        <div class="card" style="border: 1px solid black">
+          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                          </button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <button class="dropdown-item" href="" (click)="addToCart(product)">
+                              <i class="fa fa-cart-plus" aria-hidden="true"></i> Add to Cart
+                            </button>
+                <button class="dropdown-item" href="">            
+                    <i class="fa fa-info-circle" aria-hidden="true"></i> Details
+                            </button>                             
+              </div>
+            </div>
+          </div>
+          <img alt="Product Image" src="/assets/img/product.png">
+          <h2>{{product.name}}</h2>
+          <h3>INR {{product.price}}</h3>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+</div>
