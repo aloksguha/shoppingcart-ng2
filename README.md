@@ -1,4 +1,4 @@
-# Shopping
+# Simple Shopping Cart Application
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
 
@@ -17,6 +17,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To be implemented
 
 ## Running end-to-end tests
 
@@ -26,3 +27,5 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+Contact me on aloksguha@gmail.com
